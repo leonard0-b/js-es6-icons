@@ -10,9 +10,12 @@
   display: flex;
 }
 
+body {
+  background-color: #dddddd;
+}
+
 main {
   flex-wrap: wrap;
-  background-color: #dddddd;
 }
 
 .title > h1 {
