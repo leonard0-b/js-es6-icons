@@ -1,3 +1,5 @@
+// Milestone 1
+// Partendo dalla seguente struttura dati , mostriamo in pagina tutte le icone disponibili come da layout.
 const icons = [
 	{
 		name: 'cat',
@@ -98,6 +100,11 @@ const icons = [
 ];
 
 console.log(icons);
+
+// Milestone 2
+// Coloriamo le icone per tipo.
+
+// combinando il css e gli elementi degli oggetti nell'array scriv una stringa di div con al suo interno una i e un p
 
 icons.forEach((icone) => {
 	$("main").append(`<div class="card flex"><i class="${icone.family} ${icone.prefix}${icone.name} ${icone.type}"></i><p>${icone.name}</p></div>`);

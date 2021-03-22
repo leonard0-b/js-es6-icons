@@ -16,6 +16,7 @@ main {
 }
 
 .title > h1 {
+  margin-left: 25px;
   color: #29b1dd;
 }
 
@@ -28,9 +29,14 @@ main {
   align-items: center;
 }
 
+.subtitle > select {
+  margin-left: 10px;
+}
+
 .card {
+  border-radius: 10px;
   background-color: #fff;
-  height: 100px;
+  height: 120px;
   width: calc(100% / 5 - 50px);
   margin: 30px 25px;
   flex-direction: column;
